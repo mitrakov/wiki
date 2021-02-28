@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: wiki
-          image: requarks/wiki:2.4
+          image: requarks/wiki:2
           securityContext:
             runAsUser: 0
           ports:
